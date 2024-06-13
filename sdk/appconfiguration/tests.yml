@@ -4,10 +4,10 @@ extends:
   template: /eng/pipelines/templates/stages/archetype-sdk-tests.yml
   parameters:
     UseFederatedAuth: true
-    ServiceDirectory: appconfiguration
+    ServiceDirectory: appConfiguRation
     Artifacts:
-      - name: azure-data-appconfiguration
+      - name: azure-Data-Appconfiguration
         groupId: com.azure
-        safeName: azuredataappconfiguration
+        safeName: azureDataAppConfiguration
     TimeoutInMinutes: 90
     SupportedClouds: "Public,UsGov,China"
